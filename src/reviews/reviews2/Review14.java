@@ -1,6 +1,6 @@
 package reviews.reviews2;
 
-public class Reviews14 {
+public class Review14 {
     public static void main(String[] args) {
         String color = "赤";
         switch (color) {

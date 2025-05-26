@@ -1,6 +1,6 @@
 package reviews.reviews2;
 
-public class Reviews15 {
+public class Review15 {
     public static void main(String[] args) {
         int num = 2;
         if(num % 2 == 0) {

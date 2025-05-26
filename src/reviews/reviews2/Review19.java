@@ -1,6 +1,6 @@
 package reviews.reviews2;
 
-public class Reviews19 {
+public class Review19 {
     public static void main(String[] args) {
         int num = 4;
         int sum = 1;
