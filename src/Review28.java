@@ -8,11 +8,24 @@ public class Review28  {
         String subject = br.readLine();
         System.out.print("本文を入力>");
         String body = br.readLine();
-        Email send = new Email();
-        if(subject.equals("")) {
-            send(to,body);
+        Email email = new Email();
+        if(subject.isEmpty()) {
+            email.send(to,body);
         } else {
-            send(to,subject,body);
+            email.send(to,subject,body);
+        }
+    }
+
+    public static class Email {
+        public void send(String to,String body){
+            System.out.println(to + "に以下のメールを送信しました");
+            System.out.println("件名: 【件名なし】");
+            System.out.println("本文: " + body);
+        }
+        public void send(String to,String body,String subject){
+            System.out.println(to + "に以下のメールを送信しました");
+            System.out.println("件名: " + subject);
+            System.out.println("本文: " + body);
         }
     }
 }
