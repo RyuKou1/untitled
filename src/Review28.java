@@ -8,7 +8,11 @@ public class Review28  {
         String subject = br.readLine();
         System.out.print("本文を入力>");
         String body = br.readLine();
-
-
+        Email send = new Email();
+        if(subject.equals("")) {
+            send(to,body);
+        } else {
+            send(to,subject,body);
+        }
     }
 }
