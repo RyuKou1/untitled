@@ -2,7 +2,7 @@ package reviews.reviews2;
 
 public class Review14 {
     public static void main(String[] args) {
-        String color = "赤";
+        String color = "青";
         switch (color) {
             case "赤":
                 System.out.println("停止");
