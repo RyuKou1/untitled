@@ -1,4 +1,4 @@
-package java_test_book.chapter6.calc;
+package java_text_book.chapter6.calc;
 
 public class CalcLogic {
     public static int tasu(int a, int b){

@@ -1,6 +1,6 @@
-package java_test_book.chapter6.main;
+package java_text_book.chapter6.main;
 
-import java_test_book.chapter6.calc.CalcLogic;
+import java_text_book.chapter6.calc.CalcLogic;
 
 public class Calc {
     public static void main(String[] args) {
