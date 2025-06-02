@@ -1,4 +1,4 @@
-package reviews.reviews2;
+package reviews.reviews1;
 
 public class Review14 {
     public static void main(String[] args) {
