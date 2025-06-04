@@ -1,6 +1,6 @@
-package textbook_practice.chapter6;
+package textbook_practice.chapter6.practice1;
 
-public class Zenhan {
+public class Zenhan1 {
     public static void doWarusa() {
         System.out.println("きなこでござる。食えませんがの。");
     }
