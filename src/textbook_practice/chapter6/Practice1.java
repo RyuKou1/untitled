@@ -1,7 +1,5 @@
 package textbook_practice.chapter6;
 
-import java.io.IOException;
-
 public class Practice1 {
     public static void main(String[] args) throws Exception {
         Zenhan.doWarusa();
