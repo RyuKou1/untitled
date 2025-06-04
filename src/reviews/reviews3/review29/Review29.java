@@ -1,9 +1,5 @@
 package reviews.reviews3.review29;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class Review29 {
     public static void main(String[] args) {
         KeyInput key = new KeyInput();
@@ -16,18 +12,5 @@ public class Review29 {
         System.out.println(to + "に以下のメールを送信しました");
         System.out.println("件名: " + subject);
         System.out.println("本文: " + body);
-    }
-
-    public static class KeyInput {
-        public String readString() {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            String inputStr = "";
-            try{
-                inputStr = br.readLine();
-            }catch(IOException e){
-                System.out.println("ERROR: IOException");
-            }
-            return inputStr;
-        }
     }
 }
