@@ -1,4 +1,4 @@
-package reviews.reviews3;
+package reviews.reviews3.review28;
 
 import java.io.*;
 public class Review28  {
@@ -15,19 +15,6 @@ public class Review28  {
             email.send(to,body);
         } else {
             email.send(to,subject,body);
-        }
-    }
-
-    public static class Email {
-        public void send(String to,String body){
-            System.out.println(to + "に以下のメールを送信しました");
-            System.out.println("件名: 【件名なし】");
-            System.out.println("本文: " + body);
-        }
-        public void send(String to,String body,String subject){
-            System.out.println(to + "に以下のメールを送信しました");
-            System.out.println("件名: " + subject);
-            System.out.println("本文: " + body);
         }
     }
 }
